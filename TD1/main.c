@@ -7,13 +7,19 @@
 int creation_usine(pthread_t *t, int *stock);
 int creation_concession(pthread_t *t, struct concessionaire_data * data);
 int creation_entrepot(pthread_t *t, int *stock);
+pthread_mutex_t lock;
 
 int main(int argc, char*argv[]){
     int r = 1;
     int i;
 
     //Stock utilisé par tous les établissements
+
+
+
+    pthread_mutex_lock(&lock);
     int stock = 0;
+    pthread_mutex_unlock(&lock);
 
     //Usine
     pthread_t usine;
@@ -44,6 +50,7 @@ int main(int argc, char*argv[]){
 
 
         struct concessionaire_data * data = malloc(sizeof(struct concessionaire_data));
+
         (*data).pid = i;
         (*data).p_stock_usine = &stock;
 

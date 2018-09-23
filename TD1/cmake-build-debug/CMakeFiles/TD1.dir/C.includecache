@@ -6,14 +6,12 @@
 
 #IncludeRegexTransform: 
 
-/Users/filipe/Documents/Cours/SYS/TD/TD1/concession.c
+/Users/filipe/Documents/Cours/SYS/TD/TD1/main.c
 stdio.h
 -
 stdlib.h
 -
 pthread.h
--
-unistd.h
 -
 structure.h
 /Users/filipe/Documents/Cours/SYS/TD/TD1/structure.h
