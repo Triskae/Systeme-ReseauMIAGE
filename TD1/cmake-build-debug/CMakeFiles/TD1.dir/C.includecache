@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/filipe/Documents/Cours/SYS/TD/TD1/concession.c
+stdio.h
+-
+stdlib.h
+-
+pthread.h
+-
+unistd.h
+-
+structure.h
+/Users/filipe/Documents/Cours/SYS/TD/TD1/structure.h
+
+/Users/filipe/Documents/Cours/SYS/TD/TD1/structure.h
+
