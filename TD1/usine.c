@@ -7,6 +7,7 @@
 
 int capacite_max_entrepot();
 
+
 void *activite_usine(void *pdata) {
     while (1) {
         int *pointeurStock = (int *)(pdata);

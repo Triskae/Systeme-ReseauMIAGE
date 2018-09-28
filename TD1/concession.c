@@ -6,6 +6,7 @@
 
 #define CAPACITE_CONCESSION 10
 #define TEMPS_MOYEN_ENTRE_VENTE 5
+pthread_mutex_t lock;
 
 void *activite_concession(void *pdata) {
     int stock_concession = 0;
@@ -13,13 +14,14 @@ void *activite_concession(void *pdata) {
     struct concessionaire_data *data = (struct concessionaire_data*)pdata;
 
     while(1) {
+        pthread_mutex_lock(&lock);
 
         //Dans le cas ou on peu encore remplir la capacité de la concession et qu'il en reste dans les dépots
         while (stock_concession < CAPACITE_CONCESSION && *(*data).p_stock_usine > 0) {
             stock_concession = stock_concession + 1;
             *(*data).p_stock_usine = *(*data).p_stock_usine-1;
         }
-
+        pthread_mutex_unlock(&lock);
         printf("Concession %d: Stock de %d voiture(s)\n", (*data).pid, stock_concession);
 
         if (stock_concession > 0) {
