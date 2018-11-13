@@ -12,7 +12,7 @@ image *lecture_image(FILE *f) {
     char line[100];
     image *I = malloc(sizeof(image));
 
-
+    //Traitement du numéro magique
     if (fgets(line, 60, f) != NULL){
         strcat(I->nm, line);
     } else {
@@ -21,6 +21,7 @@ image *lecture_image(FILE *f) {
 
     fgets(line, 60, f);
 
+    //Traitement des commentaires
     do {
         strcat(I->comments, line);
         strcpy(line, "");
@@ -32,42 +33,49 @@ image *lecture_image(FILE *f) {
     printf("%s\n", I->comments);
 
 
+    //Traitement du numéro de ligne
     char * token = strtok(line, " ");
     I->nl = atoi(token);
 
 
+    //Traitement du numéro de numéro de colonnes
     while( token != NULL ) {
         token = strtok(NULL, " ");
         if (token != NULL) I->nc = atoi(token);
     }
 
     printf("%d\n", I->nl);
-    printf("%d\n", I->nc);
+    printf("%d\n\n", I->nc);
+
 
     I->ng = atoi(fgets(line, 60, f));
 
     int i = 0;
     //fscanf
     //Meme tete de lecture
-    while(fgets(line, 60, f) != NULL) {
+    int pixel;
 
+    for (int j = 0; j < I->nl * I->nc; ++j) {
+        fscanf(f, "%d", &pixel);
+        I->pixels[j] = pixel;
+
+    }
+
+    for (int j = 0; j < I->nl * I->nc; ++j) {
+        printf("%c", I->pixels[j]);
     }
     return I;
 }
 
 
 void ecriture_image(FILE *f, image *img) {
-    fwrite(img->nm, 1, sizeof(img->nm), f);
-
-    for (int i = 0; i < (sizeof(img->comments)/ sizeof(char))/5000; ++i) {
-        fwrite(img->comments, 1, sizeof(img->comments), f);
-    }
-
+    fprintf(f, "%s\n", img->nm);
+    fprintf(f, "%s", img->comments);
     fprintf(f, "%d %d\n", img->nl, img->nc);
     fprintf(f, "%d\n", img->ng);
 
-    for (int i = 0; i < img->nl*img->nc; ++i) {
-        fprintf(f, "%c\n", img->pixels[i]);
+    for (int i = 0; i < img->nc * img->nl; ++i) {
+        fprintf(f, "%d\n", img->pixels[i]);
     }
 
 }
@@ -75,7 +83,7 @@ void ecriture_image(FILE *f, image *img) {
 void inverse_image(image *img) { // Im[i] = MaxLevel - Im[i]
 
     for (int i = 0; i < img->nl * img->nc; ++i) {
-        img->pixels[i] = img->ng - atoi(&img->pixels[i]);
+        img->pixels[i] = img->ng - img->pixels[i];
 
     }
 }
