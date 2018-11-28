@@ -1,0 +1,8 @@
+TD3/.idea
+TD4/.idea
+TD3/cmake-build-debug/
+TD5/\.idea/
+TD5/cmake-build-debug/CMakeFiles/
+TD5/cmake-build-debug/
+*.zip
+CMake*
