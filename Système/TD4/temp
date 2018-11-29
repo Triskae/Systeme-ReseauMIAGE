@@ -1,0 +1,10 @@
+for (int i = 0; i < (sizeof(img->comments)/ sizeof(char))/5000; ++i) {
+        fwrite(img->comments, 1, sizeof(img->comments), f);
+    }
+
+    fprintf(f, "%d %d\n", img->nl, img->nc);
+    fprintf(f, "%d\n", img->ng);
+
+    for (int i = 0; i < img->nl*img->nc; ++i) {
+        fprintf(f, "%c\n", img->pixels[i]);
+    }
