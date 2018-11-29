@@ -73,7 +73,6 @@ char **ls_mp3files_inarray(char *dirname) {
         }
     }
     closedir(dir);
-
     mp3files = malloc(nbFichiers * sizeof(char *));
 
     dir = opendir(dirname);
@@ -131,7 +130,7 @@ int main(int argc, char *argv[]) {
 
 
     lseek(fd, 0, SEEK_SET);
-    char *id = "TIT2";
+    char *id = "TALB";
     char contenu[10000] = " ";
     int cr = mp3_get_frame_from_id(fd, id, contenu);
     if ((cr != -1) && (contenu[0] != '\0')) {
@@ -140,6 +139,11 @@ int main(int argc, char *argv[]) {
     } else {
         printf("%s \n ", "pas trouvé");
     }
+
+    char ** tab = ls_mp3files_inarray("./MP3");
+
+    printf("%s\n", tab[0]);
+    printf("%s\n", tab[1]);
 
     return 0;
 }
