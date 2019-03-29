@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="TD1" targetName="TD1" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e62183bf-9443-49b2-8c5d-87fe011699fb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../Réseau/TD2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Réseau/TD2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Système/TD1/.idea/TD1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Système/TD1/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Système/TD1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Système/TD1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Système/TD1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Système/TD1/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Système/TD1/concession.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Système/TD1/entrepot.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Système/TD1/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Système/TD1/structure.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Système/TD1/usine.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Système/TD2/.idea/TD2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Système/TD2/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Système/TD2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Système/TD2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Système/TD2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Système/TD2/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Système/TD2/TP2_DoutelSilva_Bois.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Système/TD2/asynchrone.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Système/TD2/fork0.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Système/TD2/fork1.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Système/TD2/orphelin.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Système/TD2/tp3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Système/TD2/wait.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Système/TD2/zombie.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Système/TD3/.idea/TD3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Système/TD3/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Système/TD3/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Système/TD3/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Système/TD3/.idea/dataSources/2dc3b392-3cf2-459b-97c5-17b3c47d49e7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Système/TD3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Système/TD3/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Système/TD3/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Système/TD3/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Système/TD3/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Système/TD3/shell.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Système/TD4/.idea/TD4.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Système/TD4/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Système/TD4/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Système/TD4/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Système/TD4/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Système/TD4/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Système/TD4/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Système/TD4/image.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Système/TD4/image.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Système/TD4/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Système/TD4/temp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Système/TD5/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Système/TD5/.idea/TD5.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Système/TD5/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Système/TD5/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Système/TD5/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Système/TD5/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Système/TD5/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Système/TD5/Makefile.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Système/TD5/genre.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Système/TD5/id3_frame.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Système/TD5/id3_frame.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Système/TD5/id3_tagheader.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Système/TD5/id3_tagheader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Système/TD5/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Système/TD5/util.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Système/TD5/util.h" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="13" selection-start-line="7" selection-start-column="18" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="836" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="TD1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TD1" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="TD1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TD1" TARGET_NAME="TD1" CONFIG_NAME="Debug" RUN_PATH="$PROJECT_DIR$/Q2.c">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e62183bf-9443-49b2-8c5d-87fe011699fb" name="Default Changelist" comment="" />
+      <created>1553852840039</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553852840039</updated>
+      <workItem from="1553852841444" duration="29000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="29000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="836" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Arduino Support" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="CMake" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="13" selection-start-line="7" selection-start-column="18" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
